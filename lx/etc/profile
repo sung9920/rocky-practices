@@ -80,3 +80,8 @@ fi
 # security
 export TMOUT=1800
 HISTTIMEFORMAT="%Y-%m-%d_%H:%M:%S [CMD]:"
+
+# java
+export JAVA_HOME=/usr/local/bit2025/java
+export CLASSPATH=.:$JAVA_HOME/lib/*
+export PATH=$PATH:$JAVA_HOME/bin
